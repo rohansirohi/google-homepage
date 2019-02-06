@@ -1,15 +1,49 @@
+.topnav{
+    padding-top: 1px;
+}
+.topnav a{
+    float: right;
+    padding-right: 18px;
+    text-decoration: none;
+    color: rgba(0,0,0,0.87);
+    font-size: 13px;
+    vertical-align: baseline;
+    font-family: arial, 'sans-serif';
+}
+.topnav a:hover{
+    text-decoration: underline;
+}
+.topnav ul li{
+    display: inline;
+    direction: rtl;
+    padding-right: 5px;
+}
+.topnav button{
+    padding: 6px 10px;
+    border: none;
+    background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+    color: white;
+    border-radius: 3px;
+    font-weight: bold;
+    margin-top: -5px;
+    border: 1px solid #4285f4;
+}
+.img-size{
+    height: 15px;
+    width: 15px;
+}
 .icon img{
     display: block;
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    top: 190px;
+    top: 141px;
   }
 .search input{
     width: 574px;
     height: 40px;
     position: relative;
-    top: 217px;
+    top: 168px;
     display: block;
     margin-left: auto;
     margin-right: auto;
