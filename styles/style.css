@@ -60,3 +60,33 @@
     width:14px;
     height:20px;
 }
+.search-button {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: 199px;
+    text-align: center;
+}
+.search-button button{
+    border: none;
+    font-family: arial,sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    color: #757575;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    cursor: pointer;
+    padding: 0 16px;
+    background-color: #f2f2f2;
+    width: 150px;
+    height: 35px;
+}
+.search-button .button-google{
+    width: 135px;
+}
+.search-button button{
+    margin-right: 7px;
+}
+.search-button button:last-child{
+    margin-right: 0px;
+}
