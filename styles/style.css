@@ -1,3 +1,4 @@
+/* Top Navigation */
 .topnav{
     padding-top: 1px;
 }
@@ -28,6 +29,7 @@
     margin-top: -5px;
     border: 1px solid #4285f4;
 }
+/* Google icon image */
 .img-size{
     height: 15px;
     width: 15px;
@@ -39,6 +41,7 @@
     position: relative;
     top: 141px;
   }
+/* Search box */
 .search input{
     width: 574px;
     height: 40px;
@@ -60,6 +63,7 @@
     width:14px;
     height:20px;
 }
+/* Search Buttons */
 .search-button {
     position: relative;
     margin-left: auto;
@@ -90,3 +94,4 @@
 .search-button button:last-child{
     margin-right: 0px;
 }
+/* Footer */
